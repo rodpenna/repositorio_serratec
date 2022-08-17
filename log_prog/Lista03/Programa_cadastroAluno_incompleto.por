@@ -110,7 +110,6 @@ programa{
 
 					pare
 
-
 				caso 'V':
 
 					se (totalAlunos!=0){
@@ -123,7 +122,6 @@ programa{
 								situacao ="Reprovado"
 							}
 							escreva("A media do ",vetorNomeAluno[i], " é ", matrizNotas[i][2]," e o aluno está: ",situacao," ! ")
-						
 						}
 					
 					}
@@ -146,7 +144,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1996; 
+ * @POSICAO-CURSOR = 2436; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

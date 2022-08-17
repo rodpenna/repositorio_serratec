@@ -15,7 +15,7 @@ Elemento - 4 : 8
 */
 programa{
 	
-	funcao inicio(){
+	funcao inicio(){
 
 		//DECLARACAO DE VARIAVEIS
 		//
@@ -122,6 +122,8 @@ programa{
 								escreva("\nO maior valor é: ",maiorValor, " na posição ",posMaior)
 								escreva("\nO menor valor é: ",menorValor, " na posição ",posMenor)
 								pare
+						
+						
 						}
 					}
 					pare
@@ -149,7 +151,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1871; 
+ * @POSICAO-CURSOR = 3249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
