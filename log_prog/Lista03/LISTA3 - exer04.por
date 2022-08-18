@@ -12,39 +12,98 @@ Exemplo de entrada:
 * *    */
 
 programa{
-	funcao inicio(){
-		//DECLARACAO DE VARIAVEL
-		inteiro numero
-		inteiro i = 1
-				
-		//ENTRADA DE DADOS
-		escreva("Digite um valor para n: ")
-		leia(numero)
+	
+	funcao inicio()
+	{
+		inteiro x , z , resp
 
-		//PROCESSAMENTO E SAIDA DE DADOS
-		se (numero>=0){
-			enquanto (i<=numero){
-				para (inteiro ii = numero - 1 ; ii>=1 ; ii-- ){
-					escreva(" ")
-				}
-				para (inteiro ii=1;ii<=i;ii++){
-					escreva("*")
-				}
-				escreva("\n")
-				i += 1
+		
+		escreva("Digite um numero inteiro de para n: ")
+		leia(x)
+
+	
+		escreva("Digite o modo de visualização: [ 1 | 2 | 3 | 4 Mudar n | 0 - sair ] ")
+		leia(resp)
+
+		faca{
+		
+			escolha(resp){
+	
+				caso 1:
+					limpa()
+		
+					para (inteiro i=0;i<x;i++){
+						para(inteiro j=x;j>i;j--){
+							escreva(" ")			
+						}
+						para (inteiro j = 0; j<= i; j++){
+							escreva("*")
+						}
+						para (inteiro j=0;j<i;j++){
+							escreva("*")
+						}
+						escreva("\n")		
+					}
+					
+					pare
+		
+		
+				caso 2:	
+					limpa()	
+					z=1	
+					enquanto (z<=x){
+						para (inteiro ii = x - 1 ; ii>=1 ; ii-- ){
+							escreva(" ")
+						}
+						para (inteiro ii=1;ii<=z;ii++){
+							escreva("*")
+						}
+						escreva("\n")
+						z += 1
+					}
+					pare
+	
+				caso 3:
+					limpa()
+					z=1
+					enquanto (z<=x){
+						
+						para (inteiro ii=1;ii<=z;ii++){
+							escreva("*")
+						}
+						escreva("\n")
+						z += 1
+					}
+					
+					
+					pare
+				caso 4:
+					limpa()
+					escreva("Digite um numero inteiro de para n: ")
+					leia(x)
+					limpa()
+					pare
+
+					
+				caso contrario:
+					limpa()
+					escreva("Erro de preenchimento")
+					pare
+	
 			}
-		}
-		senao{
-				escreva("\nErro de preenchimento\n")	
-		}
+		escreva("\n\n----------------------\n")
+		escreva("Digite o modo de visualização: [ 1 | 2 | 3 | 4 Mudar n | 0 - sair ] ")
+		leia(resp)
+		}enquanto(resp!=0)
 	}
+
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 84; 
+ * @POSICAO-CURSOR = 1351; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
