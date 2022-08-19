@@ -12,6 +12,7 @@ Saída 1 2 3 5
 programa{
 	//FUNCAO PARA VERIFICAR SE UM NUMERO E PRIMO OU NAO
 	funcao logico verificarPrimo(inteiro n){
+		
 		//DECLARACAO DE VARIAVEIS
 		inteiro aux,primo=1
 
@@ -47,7 +48,7 @@ programa{
 			escolha(resp){
 				caso 'Y':
 					contador=0
-					i=0
+					i=1
 					limpa()
 					//Definicao do numero de primos deseja fazer
 					escreva("Digite a quantidade de números primos que deseja visualizar: ")
@@ -61,10 +62,13 @@ programa{
 						leia(n)
 					}
 
+
+					//DAQUI
 					//Looping para obtencao dos numeros primos
 					enquanto( contador != n ){
 						vetor[contador] = i
 						ehPrimo = verificarPrimo(i)
+						
 						se ((ehPrimo==verdadeiro)){
 								contador++
 						}
@@ -77,6 +81,10 @@ programa{
 					para ( i=0 ; i<n ; i++ ){
 						escreva(vetor[i],"  ")
 					}
+					//ATE AQUI
+
+
+					
 					pare
 	
 				caso 'N':
@@ -102,7 +110,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2177; 
+ * @POSICAO-CURSOR = 999; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
