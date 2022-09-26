@@ -1,0 +1,95 @@
+/*------------------------------------------------------------------------------------------------------------------------------------------
+TRABALHO FINAL  
+TURMA 06 - GRUPO 1
+
+*/
+--CRIACAO DO DATABASE
+
+--CREATE DATABASE pootrabalho;
+
+--CRIACAO DO SCHEMA
+
+CREATE SCHEMA marketplace;
+
+
+
+--DADOS DA EMPRESA
+CREATE TABLE marketplace.empresa (
+	idEmpresa serial primary key,
+	cnpj varchar(14),
+	razaoSocial varchar(150),
+	endereco varchar(100),
+	nrEndereco varchar(5),
+	complemento varchar(100),
+	bairro varchar(60),
+	cidade varchar(60),
+	cep varchar(10),
+	telefone varchar(12)
+);
+
+--CRIACAO ENTIDADE CLIENTE
+CREATE TABLE marketplace.cliente(
+	idCliente serial primary key,
+	nome varchar(150),
+	cpf varchar(11),
+	tel varchar(12),
+	endereco varchar(100),
+	nrEndereco varchar(5),
+	complemento varchar(100),
+	bairro varchar(60),
+	cidade varchar(60),
+	cep varchar(10)
+);
+
+--CRIACAO ENTIDADE CATEGORIA
+CREATE TABLE marketplace.categoria (
+	idCategoria serial primary key,
+	nomeCategoria varchar(150),
+	descricaoCategoria varchar(200)
+);
+
+
+--CRIACAO ENTIDADE PRODUTO
+CREATE TABLE marketplace.produto (
+	idProduto serial primary key,
+	nomeProduto varchar(150),
+	descricaoProduto varchar(200),
+	dataFabricacao timestamp,
+	qntEstoque int,
+	valorUnitario double precision,
+	--Chave estrangeira
+	idCategoria int references marketplace.categoria(idCategoria)
+	
+);
+
+--CRIACAO ENTIDADE PEDIDO 
+CREATE TABLE marketplace.pedido (
+	idPedido serial primary key,
+	valorTotal double precision,
+	dataEmissao timestamp,
+	--Chave estrangeira
+	idCliente int references marketplace.cliente(idCliente),
+	idEmpresa int references marketplace.empresa(idEmpresa)
+);
+
+
+
+--CRIACAO ENTIDADE NotaItem
+create table marketplace.pedidoItem (
+	idPedidoItem serial primary key,
+	qntPedido int,
+	precoUnit double precision,
+	valorDesc double precision,
+	percDesc double precision,
+	valorParcial double precision,
+
+	--Chave estrangeira
+	idProduto int references marketplace.produto(idProduto),
+	idPedido int references marketplace.pedido(idPedido)
+);
+
+
+	
+
+
+
