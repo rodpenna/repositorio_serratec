@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "usuario":"RenataRaulino",
+        "twitter":"https://twitter.com/",
+        "insta": "https://www.instagram.com/",
+        "face": "https://pt-br.facebook.com/",
+        "github":"https://github.com/RenataRaulino"
+    },
+    {
+        "id": "2",
+        "usuario":"rodpenna",
+        "twitter":"https://twitter.com/",
+        "insta": "https://www.instagram.com/",
+        "face": "https://pt-br.facebook.com/",
+        "github":"https://github.com/rodpenna"
+    },
+    {
+        "id": "3",
+        "usuario":"arthurcler",
+        "twitter":"https://twitter.com/",
+        "insta": "https://www.instagram.com/arthurcler_",
+        "face": "https://pt-br.facebook.com/",
+        "github":"https://github.com/arthurcler"
+    },
+    {
+        "id": "4",
+        "usuario":"Lguedes2",
+        "twitter":"https://twitter.com/",
+        "insta": "https://www.instagram.com/lucasc_guedes/",
+        "face": "https://pt-br.facebook.com/",
+        "github":"https://github.com/Lguedes2"
+    },
+    {
+        "id": "5",
+        "usuario":"arthurGiangiarulo",
+        "twitter":"https://twitter.com/",
+        "insta": "https://www.instagram.com/",
+        "face": "https://pt-br.facebook.com/",
+        "github":"https://github.com/arthurGiangiarulo"
+    }
+
+]

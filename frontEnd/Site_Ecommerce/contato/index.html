@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+  <!-- HEAD -->
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./styles.css">
+      
+
+    <!-- TITULO DA PAGINA -->
+    <title>Loja Online</title>
+  </head>
+
+  <!-- BODY -->
+  <body style="min-width: 372px;">
+
+    <!-- NAV/HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom shadow-sm mb-3">
+
+      <div class="container">
+
+          <!-- NOME DA EMPRESA -->
+          <a class="navbar-brand" href="./../home/index.html">
+            <strong>Loja Online</strong>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!-- BARRA DE NAVEGAÇÃO -->
+          <div class="barraNav">
+          <div class="navbar-collapse collapse">
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <!-- ITENS DA BARRA -->
+                <a href="../home/index.html" class="nav-link text-white">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../sobre/index.html" class="nav-link text-white">
+                  Sobre
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../contato/index.html" class="nav-link text-white">
+                  Contato
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../login/index.html" class="nav-link text-white">
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- TITULO DA PAGINA -->
+    <div class="main-title-box">
+      <p class="main-title">
+        ENTRE EM CONTATO
+      </p>
+    </div>
+       
+    <hr class="mt-3">
+
+      <!-- MAIN -->
+    <main class="mb-5 pb-5 mb-md-0 p-5">
+      <!-- GRID PRODUTOS -->
+      <div class="row" id="container">        
+        <form>
+          <div class="row">
+            <div class="col-sm12 col-md-6">
+              <fieldset class="row">
+               
+                <div  class="mb-3">
+                  <label class="form-label">
+                    Nome
+                  </label>
+                  <input 
+                    type="text" 
+                    class="form-control" 
+                    id="txtNome" 
+                    pattern="[A-Za-z]{4,}" 
+                    title="Digite um nome de no mínimo 4 caracteres"
+                    required
+                  >
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">
+                    Email
+                  </label>
+                  <input 
+                    type="text" 
+                    class="form-control" 
+                    id="txtEmail" 
+                    title="Digite um email válido do formato. Ex: exemplo@gmail.com"
+                    required 
+                  >
+                </div>
+
+                <div  class="mb-3">
+                  <label class="form-label">
+                    CPF
+                  </label>
+                  <span class="text-muted">
+                    (somente números)
+                  </span>
+                  <input 
+                    type="text" 
+                    class="form-control" 
+                    id="txtCPF"
+                    pattern="[0-9]{11,}"
+                    title="Digite o CPF somente com os 11 números" 
+                    required
+                  >
+                </div>
+
+                <div class="mb-3">
+                  <label 
+                    for="Textarea" class="form-label"
+                  >
+                    Nos dê a sua opinião
+                  </label>
+                  <textarea 
+                    class="form-control" 
+                    id="txtArea" 
+                    rows="5" 
+                    title="Digite um texto"
+                    required
+                  ></textarea>
+                </div>
+
+              </fieldset>
+              <button 
+                type="button"
+                id="botaoEnviar" 
+                class="btn btn-primary" 
+                onclick="enviarFormulario()" 
+              >
+                  Enviar
+              </button>
+            </div>
+          </div>
+        </form>
+        <hr class="mt-3">
+      </div>
+    </main> 
+   
+    <!-- FOOTER -->
+    <footer class="border-top fixed-bottom text-muted bg-light">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center text-md-left">
+            &copy; 2022 - Loja Onine
+          </div> 
+          <div class="col-12 col-md-4 text-center">
+            <a href="#" class="texte-decotarion-none text-dark">
+              Política de Privacidade
+            </a>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="../login/index.html" class="texte-decotarion-none text-dark">
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <!-- JAVASCRIPT -->
+    <script src="./script.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
+

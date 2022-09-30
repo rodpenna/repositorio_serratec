@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2828362a;
+}
+
+body > div p.main-title{
+    font-size: 50px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;    
+}
+
+body > nav {
+    position: absolute;
+    top: 0;
+}
+
+body > nav ul{
+    position: relative;
+    right: 100px;
+    gap: 50px;
+}
+

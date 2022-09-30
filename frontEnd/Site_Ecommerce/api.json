@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "nome":"Fogo & Sangue - Volume1",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/818yNY0mMZL.jpg",
+        "preco": "R$ 70,00",
+        "estoque":10,
+        "descricao":"A misteriosa Megumi, fabricante de ópio que foi salva por Kenshin e Sano, havia decidido ficar no dojo Kamiya até se livrar completamente das mãos de Kanryuu. Contudo, ameaçada pelo executivo, Megumi desaparece do dojo deixando apenas uma carta dizendo que voltaria para Aizu. Kenshin percebe que era tudo um plano de Kanryuu e decide invadir a mansão dele para resgatar a médica. A mansão é protegida pelos Oniwabanshuu e seu okashira (chefe), Aoshi Shinomori, que agora está decidido a lutar com Kenshin. Ao adentrar a mansão, Kenshin, Sano e Yahiko se deparam com o primeiro adversário, o misterioso Hannya. AUTOR: Nobuhiro,Watsuki No. PÁGINAS: 200"
+    },
+    {
+        "id": "2",
+        "nome":"As Crônicas de Nárnia",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71yJLhQekBL.jpg",
+        "preco": "R$ 50,00",
+        "estoque":10,
+        "descricao":"Viagens ao fim do mundo, criaturas fantásticas e batalhas épicas entre o bem e o mal - o que mais um leitor poderia querer de um livro? O livro que tem tudo isso é 'O leão, a feiticeira e o guarda-roupa', escrito em 1949 por Clive Staples Lewis. MasLewis não parou por aí. Seis outros livros vieram depois e, juntos, ficaram conhecidos como 'As crônicas de Nárnia'. Nos últimos cinqüenta anos, 'As crônicas de Nárnia' transcenderam o gênero da fantasia para se tornar parte do cânone da literaturaclássica. Cada um dos sete livros é uma obra-prima, atraindo o leitor para um mundo em que a magia encontra a realidade, e o resultado é um mundo ficcional que tem fascinado gerações. Esta edição apresenta todas as sete crônicas integralmente, num único volume. Os livros são apresentados de acordo com a ordem de preferência de Lewis, cada capítulo com uma ilustração do artista original, Pauline Baynes. Enganosamente simples e direta, 'As crônicas de Nárnia' continuam cativando os leitores com aventuras, personagens e fatos que falam a pessoas de todas as idades."
+    },
+    {
+        "id": "3",
+        "nome":"O Hobbit",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/91M9xPIf10L.jpg",
+        "preco": "R$ 30,00",
+        "estoque":10,
+        "descricao":"Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos.Esta jornada fará Bilbo, Gandalf e 13 anãos atravessarem a Terra-média, passando por inúmeros perigos, sejam eles, os imensos trols, as Montanhas Nevoentas infestadas de gobelins ou a muito antiga e misteriosa Trevamata, até chegarem (se conseguirem) na Montanha Solitária. Lá está um incalculável tesouro, mas há um porém. Deitado em cima dele está Smaug, o Dourado, um dragão malicioso que... bem, você terá que ler e descobrir."
+
+    },
+    {
+        "id": "4",
+        "nome":"O homem mais rico da Babilônia",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/81HKcvLn15L.jpg",
+        "preco": "R$ 30,00",
+        "estoque":10,
+        "descricao":"Com mais de dois milhões de exemplares vendidos no mundo todo, O homem mais rico da Babilônia é um clássico sobre como multiplicar riqueza e solucionar problemas financeiros. Baseando-se nos segredos de sucesso dos antigos babilônicos ― os habitantes da cidade mais rica e próspera de seu tempo ―, George S. Clason mostra soluções ao mesmo tempo sábias e muito atuais para evitar a falta de dinheiro, como não desperdiçar recursos durante tempos de opulência, buscar conhecimento e informação em vez de apenas lucro, assegurar uma renda para o futuro, manter a pontualidade no pagamento de dívidas e, sobretudo, cultivar as próprias aptidões, tornando-se cada vez mais habilidoso e consciente."
+    },
+    {
+        "id": "5",
+        "nome":"One Piece Vol. 99",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/61jzhKsA2dL.jpg",
+        "preco": "R$ 70,00",
+        "estoque":10,
+        "descricao":"Depois de seus companheiros conseguirem impedir a perseguição implacável dos Oficiais dos Piratas Bestiais, Luffy finalmente chega ao topo da fortaleza e está diante de Kaido!! Todos os atores reúnem-se neste palco grandioso onde um combate mais do que intenso está prestes a começar...! É o início do clímax da batalha final em Onigashima!!"
+    },
+    {
+        "id": "6",
+        "nome":"One Piece Vol. 100",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/713vZsVsgtL.jpg",
+        "preco": "R$ 70,00",
+        "estoque":10,
+        "descricao":"Com todas as estrelas reunidas no topo da fortaleza, Luffy e os Piratas da Nova Geração desafiam Kaido e Big Mom! Será que há alguma chance de vitória contra essa aliança formada entre os dois mais poderosos piratas dos mares?! O que o futuro reserva para essa batalha extrema que está fazendo toda Onigashima tremer?!"
+    },
+    {
+        "id": "7",
+        "nome":"One Piece Vol. 101",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71YmgWgMYBL.jpg",
+        "preco": "R$ 70,00",
+        "estoque":10,
+        "descricao":"Acreditando que Luffy voltará e não desistirá de derrubar Kaido, seus companheiros travam batalhas mortais e intensas contra os Oficiais do bando inimigo!! Enquanto isso, é no topo de Onigashima que Kaido e Yamato estão frente a frente dando início a um confronto fatídico entre pai e filha!!"
+    },
+    {
+        "id": "8",
+        "nome":"Mais esperto que o Diabo",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71c4clNHGYL.jpg",
+        "preco": "R$ 20,00",
+        "estoque":10,
+        "descricao":"Neste livro, inédito no Brasil, você vai descobrir, após 75 anos de segredo, por meio dessa entrevista exclusiva que Napoleon Hill fez, quebrando o código secreto da mente do Diabo: Quem é o Diabo? Onde ele habita? Quais suas principais armas mentais? Quem são os alienados e de que forma eles ou elas se alienam?"
+    },
+    {
+        "id": "9",
+        "nome":"Pai Rico, Pai Pobre",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/81KY9mmrF-L.jpg",
+        "preco": "R$ 50,00",
+        "estoque":10,
+        "descricao":"A escola prepara as crianças para o mundo real?  Essa é a primeira pergunta com a qual o leitor se depara neste livro.  O recado é ousado e direto: boa formação e notas altas não bastam para assegurar o sucesso de alguém. "
+    },
+    {
+        "id": "10",
+        "nome":"Hunter x Hunter Vol.2",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71kSq30ef5L.jpg",
+        "preco": "R$ 50,00",
+        "estoque":10,
+        "descricao":"Após deixar seu lar, decidido a se tornar um Hunter como o pai, Gon enfrentou desafios e testes até chegar ao local do Exame Hunter. Durante sua primeira aventura longe de casa, conheceu companheiros peculiares que tornaram-se seus amigos: Kurapaika e Leorio. "
+    },
+    {
+        "id": "11",
+        "nome":"Rurouni Kenshin - Crônicas da Era Meiji - Volume 4",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/I/71yDo4JqLHL.jpg",
+        "preco": "R$ 20,00",
+        "estoque":10,
+        "descricao":"A misteriosa Megumi, fabricante de ópio que foi salva por Kenshin e Sano, havia decidido ficar no dojo Kamiya até se livrar completamente das mãos de Kanryuu. Contudo, ameaçada pelo executivo, Megumi desaparece do dojo deixando apenas uma carta dizendo que voltaria para Aizu."
+    }
+]
+

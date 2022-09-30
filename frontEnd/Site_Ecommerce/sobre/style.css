@@ -1,0 +1,123 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+/* BODY */
+
+    body{
+        background-color: #2828362a;
+    }
+    /* TITULO PAG */
+    body > div p.main-title{
+        font-size: 50px;
+        font-weight: 700;
+
+        display: flex;
+        justify-content: center;    
+    }
+
+    /* BARRA NAVEGACAO */
+    body > nav {
+        position: absolute;
+        top: 0;
+    }
+    
+    body > nav ul{
+        position: relative;
+        right: 100px;
+        gap: 50px;
+    }
+
+    /* MAIN */
+    body > main {
+        display: flex;
+        justify-content: center;
+    }
+
+    body > main div.boxGeral{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+
+        width: 80%;
+
+        gap: 80px;
+        padding: 20px;
+    }
+
+    /* BOX COM DADOS */
+    body > main div.contato{
+        background-color: rgba(83, 83, 83, 0.439);
+        width: 400px;
+        height: 500px;
+        border-radius: 25px;
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    body > main div.contato h2{
+        position:absolute;
+        top: 0;
+
+        margin-top: 5%;
+    }
+
+    body > main div.contato img{
+        height: 250px;
+        width: 250px;   
+        border-radius: 100%;     
+    }
+
+
+    /* ICONES DOS CONTATOS */
+
+    body > main nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            
+        height: 50px;
+        width: 100%;
+        
+        position: absolute;
+        bottom: 20px;
+    }
+
+    body>main nav.social ul a{
+        list-style: none;
+        vertical-align: top;
+    }
+
+    body > main nav.social img{
+        height: 40px;
+        width: 40px;
+        
+        position: absolute;
+        bottom: 0;
+
+        margin-bottom: 5%;
+    }
+
+    body > main nav.social ul li {
+        display: inline-block;
+        text-align: start;
+        width: 50px;
+        margin: 0px 15px;
+        opacity: 0.36;
+        transition: opacity 200ms ease;
+    }
+
+    body > main nav.social ul li:hover {
+        opacity: 1;
+    }
+  
+
+
