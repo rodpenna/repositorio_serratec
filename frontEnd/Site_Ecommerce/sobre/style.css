@@ -118,6 +118,10 @@
     body > main nav.social ul li:hover {
         opacity: 1;
     }
-  
+    #logo{
+        width: 200px;
+        border-radius:5%;
+        
+    }
 
 

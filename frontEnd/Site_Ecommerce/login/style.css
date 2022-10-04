@@ -119,3 +119,16 @@ body > main div a{
     text-decoration: none;
     margin-left: 10px;
 }
+#logo{
+    width: 200px;
+    border-radius:5%;
+    
+}
+#star{
+    width:220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 40px solid blue;
+   
+}

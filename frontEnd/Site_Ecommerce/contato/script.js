@@ -10,7 +10,7 @@ function enviarFormulario(){
     console.log(isNaN(cpf))
     console.log(isNaN(nome))
 
-    if(checkEmail() && isNaN(nome) && isNaN(cpf) && isNaN(texto)){
+    if(checkEmail() && isNaN(nome) && isNaN(texto) ){
         alert('Mensagem enviada');
     }
     else {

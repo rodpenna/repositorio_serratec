@@ -24,4 +24,8 @@ body > nav ul{
     right: 100px;
     gap: 50px;
 }
-
+#logo{
+    width: 200px;
+    border-radius:5%;
+    
+}

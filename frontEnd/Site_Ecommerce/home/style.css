@@ -35,10 +35,15 @@ body > main div img {
 
 #imgCard{
     height: 270px;
-    
+  
 }
 
 #missing{
     display: flex;
     justify-content: center;
+}
+#logo{
+    width: 200px;
+    border-radius:5%;
+    
 }
